@@ -70,7 +70,7 @@ function displayFriends() {
         friendEl.addEventListener('click', () => {
 
             if (mushroomCount === 0) {
-                alert('There are no mushrooms! Put on your mushroom gloves and go find some!');
+                alert('No more mushrooms! GO FORAGING!!!');
             } else if (mushroomCount > 0 && friend.satisfaction < 3) {
                 //increment the friends satisfaction and decrement your mushrooms
                 friend.satisfaction++;
