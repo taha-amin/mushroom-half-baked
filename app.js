@@ -46,7 +46,7 @@ addFriendButton.addEventListener('click', () => {
     const name = friendInputEl.value;
     // create a new friend object
     const newFriend = {
-        name: name || `Random Default Friend`, satisfaction: 1
+        name: name || `Random Default Friend ${Math.floor(Math.random() * 100)}`, satisfaction: 1
     };
     // push it into the friends state array, passed in as an argument
     friendData.push(newFriend);
